@@ -6,7 +6,7 @@ from bot_base import creat_user_table
 from bot_base import creat_users_pl_table
 import bot_base
 logging.basicConfig(level=logging.INFO)
-TOKEN = '5107750827:AAHyD1nDBgykWrNrtPzCHY8_DGANtPgj6Jo'
+TOKEN = 'YOUR_TOKEN'
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 class Users:
